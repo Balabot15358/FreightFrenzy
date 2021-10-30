@@ -56,7 +56,7 @@ import org.firstinspires.ftc.robotcontroller.external.samples.SensorMRRangeSenso
  * Servo channel:  Servo to close right grabber: "right_grabber"
  * Servo channel:  Servo to close left grabber:  "left_grabber"
  */
-public class HardwarePushbotHT_20191012
+public class HardwarePushbot
 {
     /* Public OpMode members. */
     //renamed all below per comments here
@@ -79,7 +79,7 @@ public class HardwarePushbotHT_20191012
     private ElapsedTime period  = new ElapsedTime();
 
     /* Constructor */
-    public HardwarePushbotHT_20191012(){
+    public HardwarePushbot(){
 
     }
 

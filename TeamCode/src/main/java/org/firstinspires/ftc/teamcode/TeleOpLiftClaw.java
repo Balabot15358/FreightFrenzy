@@ -1,13 +1,15 @@
 
 package org.firstinspires.ftc.team15358;
 
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 import java.util.Locale;
 
+import org.firstinspires.ftc.teamcode.LiftClawCommon;
 @TeleOp(name="Teleop Lift & Claw")
-//@Disabled
+
 public class TeleOpLiftClaw extends LinearOpMode {
 
     @Override

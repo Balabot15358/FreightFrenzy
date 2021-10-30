@@ -145,12 +145,12 @@ public class LiftClawCommon {
             lowerOneBlock();
         }
 
-        if(curOpMode.gamepad2.arrowDown)
+        if(curOpMode.gamepad2.dpad_down)
         {
             engageGrabbers();
         }
 
-        if(curOpMode.gamepad2.arrowUp)
+        if(curOpMode.gamepad2.dpad_up)
         {
             disengageGrabbers();
         }

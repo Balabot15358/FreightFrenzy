@@ -50,11 +50,11 @@ import com.qualcomm.robotcore.util.Range;
  */
 
 @TeleOp(name="Pushbot: Teleop POV", group="Pushbot")
-@Disabled
-public class PushbotTeleopPOV_Linear_gamepad1_HT_20191012 extends LinearOpMode {
+
+public class PushbotTeleopPOV_Linear_gamepad1 extends LinearOpMode {
 
     /* Declare OpMode members. */
-    HardwarePushbotHT_20191012 robot           = new HardwarePushbotHT_20191012();   // Use a Pushbot's hardware, 15358 HT set to team config
+    HardwarePushbot robot           = new HardwarePushbot();   // Use a Pushbot's hardware, 15358 HT set to team config
     double          clawOffset      = 0;                       // Servo mid position
     final double    CLAW_SPEED      = 0.02 ;                   // sets rate to move servo
 
